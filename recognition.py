@@ -10,7 +10,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True,
 	help="path to the input image")
 ap.add_argument("-c", "--cascade",
-	default="cars.xml",
+	default="./cascade_xml/cars.xml",
 	help="path to cat detector haar cascade")
 args = vars(ap.parse_args())
 
