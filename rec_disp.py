@@ -44,7 +44,7 @@ for (i, (x, y, w, h)) in enumerate(rects):
 		cv2.FONT_HERSHEY_SIMPLEX, 0.55, (0, 0, 255), 2)
 
 # show the detected cars
-cv2.imshow("Cars", imgL)
+cv2.imshow("Cars", disparity)
 cv2.waitKey(3)
 
 # show the disparity
